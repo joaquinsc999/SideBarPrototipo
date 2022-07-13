@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App__contentContainer {
+  margin-left: 220px;
+}
+
