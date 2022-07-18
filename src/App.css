@@ -3,7 +3,24 @@
   margin: 0;
 }
 
+
 .App__contentContainer {
-  margin-left: 220px;
+  margin-left: 200px;
+  background-color: brown;
+  width: calc(100% - 200px);
+  min-height: 100vh;
+  height: 100vh;
+  position: relative;
 }
+
+.App__gridContainer {
+  width: 100%;
+  min-height: calc(100% - 60px);
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
